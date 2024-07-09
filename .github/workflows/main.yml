@@ -21,7 +21,7 @@ on:
           - 'ArrowOS 13.1'
           - 'DerpFest 13.0'
           - 'CipherOS 14'
-          - 'PixelOS 14'
+          - 'Xdroid 14'
           - 'RisingOS 14'
           - 'LineageOS 18.1'
           - 'LineageOS 16.0'
@@ -106,10 +106,10 @@ jobs:
           export PROJECTID="79"
           export REPO_INIT="repo init -u https://github.com/CipherOS/android_manifest.git -b fourteen --git-lfs --depth=1"
         ;;
-        "PixelOS 14")
+        "Xdroid 14")
           export PROJECTFOLDER="/crave-devspaces/Pixel14"
           export PROJECTID="82"
-          export REPO_INIT="repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs --depth=1"
+          export REPO_INIT="repo init -u https://github.com/xdroid-oss/xd_manifest -b fourteen --git-lfs"
         ;;
         "RisingOS 14")
           export PROJECTFOLDER="/crave-devspaces/Rising14"
